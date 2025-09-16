@@ -1,0 +1,46 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {% if page.experiences %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless m-0">
+          {% assign items = page.experiences | reverse %}
+          {% for item in items %}
+            <tr class="experience-row">
+              <th scope="row" style="width: 22%; color: var(--global-theme-color); vertical-align: top; padding-top: 0.5rem;">
+                {{ item.company }}
+              </th>
+              <td style="vertical-align: top; padding-top: 0.5rem;">
+                <div style="margin-bottom: 0.35rem;">
+                  <span>{{ item.position }}</span>
+                  <span style="margin: 0 0.5rem;">·</span>
+                  <span><i class="fa-solid fa-location-dot" style="margin-right: 0.3rem;"></i>{{ item.location }}</span>
+                  <span style="margin: 0 0.5rem;">·</span>
+                  <span>{{ item.date_range }}</span>
+                </div>
+                {% if item.description %}
+                  <div style="margin-bottom: 0.35rem;">{{ item.description }}</div>
+                {% endif %}
+                {% if item.keywords and item.keywords.size > 0 %}
+                  <div>
+                    {% for keyword in item.keywords %}
+                      <span style="font-style: italic; margin-right: 0.75rem;">{{ keyword }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" style="border-bottom: 1px solid var(--global-divider-color); padding: 0.5rem 0 0.75rem 0;"></td>
+            </tr>
+          {% endfor %}
+        </table>
+      </div>
+    {% else %}
+      {{ content }}
+    {% endif %}
+  </article>
+</div>
+
