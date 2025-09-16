@@ -13,7 +13,7 @@ layout: page
                 {{ item.company }}
               </th>
               <td style="vertical-align: top; padding-top: 0.5rem;">
-                <div style="margin-bottom: 0.35rem;">
+                <div style="margin-bottom: 0.75rem;">
                   <span>{{ item.position }}</span>
                   <span style="margin: 0 0.5rem;">·</span>
                   <span><i class="fa-solid fa-location-dot" style="margin-right: 0.3rem;"></i>{{ item.location }}</span>
@@ -21,10 +21,10 @@ layout: page
                   <span>{{ item.date_range }}</span>
                 </div>
                 {% if item.description %}
-                  <div style="margin-bottom: 0.35rem;">{{ item.description }}</div>
+                  <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
                 {% endif %}
                 {% if item.keywords and item.keywords.size > 0 %}
-                  <div>
+                  <div style="margin-top: 0.25rem;">
                     {% for keyword in item.keywords %}
                       <span style="font-style: italic; margin-right: 0.75rem;">{{ keyword }}</span>
                     {% endfor %}
@@ -43,4 +43,3 @@ layout: page
     {% endif %}
   </article>
 </div>
-
