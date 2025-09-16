@@ -241,6 +241,17 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Home sections spacing (about page)
+.home-section {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
 // Navbar customization
 
 .navbar {
