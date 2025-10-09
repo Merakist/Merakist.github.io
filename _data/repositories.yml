@@ -4,5 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - Merakist/TokenChain
+  - Merakist/SESAME
   - Merakist/Amphion
   - Merakist/UniCATS-vec2wav-resample
+  - Merakist/speech-mos-system
+  - Merakist/SI-Eval
