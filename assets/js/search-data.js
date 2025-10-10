@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-experiences",
           title: "experiences",
-          description: "internships and employment",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/experiences/";
