@@ -5,7 +5,7 @@
     "image": "",
     "email": "mail@mingxuan.wang",
     "url": "https://mingxuan.wang",
-    "summary": "A CS undergraduate at CUHK-Shenzhen (SDS). Research Assistant focusing on spoken language processing and generative AI for (multilingual) speech & audio.",
+    "summary": "A CS undergraduate at CUHK-Shenzhen (SDS), researching spoken language processing and generative AI for (multilingual) speech & audio.",
     "location": {
       "address": "Longxiang Ave. No. 2001, The Chinese University of Hong Kong Shenzhen",
       "postalCode": "518172",
@@ -110,7 +110,7 @@
     },
     {
       "title": "Dean’s List",
-      "date": "2022, 2023, 2024, 2025",
+      "date": "2022-2025",
       "awarder": "The Chinese University of Hong Kong, Shenzhen",
       "summary": "Recognized for academic excellence."
     }
@@ -126,17 +126,20 @@
     {
       "name": "TokenChain: Fully Discrete Machine Speech Chain",
       "publisher": "ICASSP 2026 (under review)",
+      "releaseDate": "2025",
       "summary": "Couples semantic-token ASR with a two-stage TTS and uses straight-through estimators for end-to-end feedback; submitted to ICASSP 2026."
     },
     {
       "name": "SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion",
       "publisher": "arXiv",
+      "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2402.12660.pdf",
       "summary": "Defined objective criteria of audio data to visualize diffusion training dynamics; designed and analyzed 20+ expert surveys; co-authored paper and produced a demo video."
     },
     {
       "name": "Amphion: An Open-Source Audio, Music and Speech Generation Toolkit",
       "publisher": "arXiv",
+      "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2312.09911.pdf",
       "summary": "Contributed to evaluation pipeline for text-to-speech; improved benchmarking efficiency; enhanced large-dataset TTS with multi-speaker functionality."
     }
