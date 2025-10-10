@@ -38,8 +38,8 @@
       "endDate": "2025-09",
       "summary": "Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh.",
       "highlights": [
-        "Designed, implemented and evaluated MoE routing and probing pipelines",
-        "Trained novel MoE models, defined and compared with baselines",
+        "Designed, implemented and evaluated MoE routing pipelines",
+        "Trained novel MoE models and compared with baselines",
         "Conducted ablations for router design and model explainability"
       ]
     },
