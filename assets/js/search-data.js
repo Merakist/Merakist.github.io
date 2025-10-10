@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -405,16 +405,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-we-released-amphion-v0-1-which-is-an-open-source-platform-for-audio-music-and-speech-generation",
+          title: 'We released Amphion v0.1 , which is an open-source platform for Audio, Music,...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-singvisio-visual-analytics-of-diffusion-model-for-singing-voice-conversion-an-interactive-visualization-platform-explaining-singing-voice-conversion-diffusion-models-is-accepted-by-computers-amp-amp-graphics-try-it-here",
+          title: 'Our paper, SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion, an...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-amphion-an-open-source-audio-music-and-speech-generation-toolkit-is-accepted-by-ieee-slt-2024",
+          title: 'Our paper, Amphion: An Open-Source Audio, Music and Speech Generation Toolkit, is accepted...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
