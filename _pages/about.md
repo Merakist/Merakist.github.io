@@ -29,4 +29,4 @@ Hi! I'm Mingxuan Wang, a Computer Science undergraduate at [The Chinese Universi
 
 During my exchange at the Technical University of Munich, I was supervised by [Professor Georg Groh](https://www.soc.cit.tum.de/persons/georg-groh/) to investigate semantics–syntax separation in Mixture-of-Experts models. Previously, I was also supervised by [Professor Zhizheng Wu](https://drwuz.com), and contributed to the [Amphion](https://github.com/open-mmlab/Amphion)[![GitHub stars](https://img.shields.io/github/stars/open-mmlab/Amphion)](https://github.com/open-mmlab/Amphion) toolkit for Audio, Music, and Speech Generation.
 
-My research interests include `Generative AI for (Multilingual) Speech` and `Spoken Language Processing`. Feel free to reach out if you’d like to chat or collaborate!
+My research interests include `GenAI for (Multilingual) Speech` and `Spoken Language Processing`. Feel free to reach out if you’d like to chat or collaborate!
