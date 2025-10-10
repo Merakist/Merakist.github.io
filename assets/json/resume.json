@@ -91,7 +91,7 @@
       "url": "https://www.cuhk.edu.cn",
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2022-09",  
+      "startDate": "2022-09",
       "endDate": "Present",
       "score": "CGPA: 3.79/4.00"
     }
@@ -132,14 +132,14 @@
     },
     {
       "name": "SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion",
-      "publisher": "arXiv",
+      "publisher": "Computers & Graphics",
       "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2402.12660.pdf",
       "summary": "Defined objective criteria of audio data to visualize diffusion training dynamics; designed and analyzed 20+ expert surveys; co-authored paper and produced a demo video."
     },
     {
       "name": "Amphion: An Open-Source Audio, Music and Speech Generation Toolkit",
-      "publisher": "arXiv",
+      "publisher": "IEEE SLT 2024",
       "releaseDate": "2024",
       "url": "https://arxiv.org/pdf/2312.09911.pdf",
       "summary": "Contributed to evaluation pipeline for text-to-speech; improved benchmarking efficiency; enhanced large-dataset TTS with multi-speaker functionality."
