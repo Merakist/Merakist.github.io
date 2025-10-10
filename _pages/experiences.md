@@ -9,7 +9,7 @@ nav_order: 4
 experiences:
   - date_range: 2025.04 - 2025.09
     location: Munich, Germany
-    position: Visiting Researcher (Exchange)
+    position: Exchange Student
     company: Technical University of Munich (TUM)
     description: Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh; designed, implemented and evaluated MoE routing and probing pipelines; trained novel MoE models, compared with baselines, and conducted ablations.
     keywords: [MoE, Semantics/Syntax, Router Design, Explainability]

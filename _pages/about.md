@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Mingxuan Wang, a Computer Science undergraduate student at [The Chinese University of Hong Kong (Shenzhen)](https://sds.cuhk.edu.cn/en). I currently work as a Research Assistant in the Spoken Language Communications (SLC) Lab, supervised by [Professor Satoshi Nakamura](https://sai.cuhk.edu.cn/en/teacher/104) with a focus on [Machine Speech Chain](https://ieeexplore.ieee.org/document/9020132), Speech Modeling and Speech Synthesis.
+Hi! I'm Mingxuan Wang, a Computer Science undergraduate at [The Chinese University of Hong Kong (Shenzhen)](https://sds.cuhk.edu.cn/en). I currently work as a Research Assistant in the Spoken Language Communications (SLC) Lab, supervised by [Professor Satoshi Nakamura](https://sai.cuhk.edu.cn/en/teacher/104) with a focus on [Machine Speech Chain](https://ieeexplore.ieee.org/document/9020132), Speech Modeling and Speech Synthesis.
 
 During my exchange at the Technical University of Munich, I was supervised by [Professor Georg Groh](https://www.soc.cit.tum.de/persons/georg-groh/) to investigate semantics–syntax separation in Mixture-of-Experts models. Previously, I was also supervised by [Professor Zhizheng Wu](https://drwuz.com), and contributed to the [Amphion](https://github.com/open-mmlab/Amphion)[![GitHub stars](https://img.shields.io/github/stars/open-mmlab/Amphion)](https://github.com/open-mmlab/Amphion) toolkit for Audio, Music, and Speech Generation.
 
-My research interests include `Generative AI for Speech and Audio`, and `Speech and Language Processing`. Feel free to reach out if you’d like to chat or collaborate!
+My research interests include `Generative AI for (Multilingual) Speech` and `Spoken Language Processing`. Feel free to reach out if you’d like to chat or collaborate!
