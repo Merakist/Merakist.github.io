@@ -3,38 +3,86 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.experiences %}
-      <div class="table-responsive">
-        <table class="table table-sm table-borderless m-0">
-          {% assign items = page.experiences | reverse %}
-          {% for item in items %}
-            <tr class="experience-row" style="border-bottom: 1px solid var(--global-divider-color);">
-              <th scope="row" style="width: 22%; color: var(--global-theme-color); vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
-                {{ item.company }}
-              </th>
-              <td style="vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
-                <div style="margin-bottom: 0.75rem;">
-                  <span>{{ item.position }}</span>
-                  <span style="margin: 0 0.5rem;">·</span>
-                  <span><i class="fa-solid fa-location-dot" style="margin-right: 0.3rem;"></i>{{ item.location }}</span>
-                  <span style="margin: 0 0.5rem;">·</span>
-                  <span>{{ item.date_range }}</span>
-                </div>
-                {% if item.description %}
-                  <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
-                {% endif %}
-                {% if item.keywords and item.keywords.size > 0 %}
-                  <div style="margin-top: 0.25rem;">
-                    {% for keyword in item.keywords %}
-                      <span style="font-style: italic; margin-right: 0.75rem;">{{ keyword }}</span>
-                    {% endfor %}
+    {% if page.experiences or page.honors %}
+      {%- if page.experiences -%}
+        <h2 style="color: var(--global-theme-color); margin: 0 0 1rem 0;">Internships &amp; Employment</h2>
+        <div class="table-responsive" style="margin-bottom: 2rem;">
+          <table class="table table-sm table-borderless m-0">
+            {% assign items = page.experiences | reverse %}
+            {% for item in items %}
+              <tr class="experience-row" style="border-bottom: 1px solid var(--global-divider-color);">
+                <th scope="row" style="width: 22%; color: var(--global-theme-color); vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
+                  {{ item.company }}
+                </th>
+                <td style="vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
+                  <div style="margin-bottom: 0.75rem;">
+                    <span>{{ item.position }}</span>
+                    {% if item.location -%}
+                      <span style="margin: 0 0.5rem;">·</span>
+                      <span><i class="fa-solid fa-location-dot" style="margin-right: 0.3rem;"></i>{{ item.location }}</span>
+                    {%- endif %}
+                    {% if item.date_range -%}
+                      <span style="margin: 0 0.5rem;">·</span> <span>{{ item.date_range }}</span>
+                    {%- endif %}
                   </div>
-                {% endif %}
-              </td>
-            </tr>
-          {% endfor %}
-        </table>
-      </div>
+                  {% if item.description %}
+                    <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                  {% endif %}
+                  {% if item.keywords and item.keywords.size > 0 %}
+                    <div style="margin-top: 0.25rem;">
+                      {% for keyword in item.keywords %}
+                        <span style="font-style: italic; margin-right: 0.75rem;">{{ keyword }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
+      {%- endif -%}
+
+      {%- if page.honors -%}
+        <h2 id="honors" style="color: var(--global-theme-color); margin: 2rem 0 1rem 0;">Honors</h2>
+        <div class="table-responsive">
+          <table class="table table-sm table-borderless m-0">
+            {% assign hitems = page.honors | reverse %}
+            {% for item in hitems %}
+              <tr class="experience-row" style="border-bottom: 1px solid var(--global-divider-color);">
+                <!-- Left column shows the award/title -->
+                <th scope="row" style="width: 22%; color: var(--global-theme-color); vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
+                  <i class="fa-solid fa-trophy" style="margin-right: 0.4rem;"></i>{{ item.award }}
+                </th>
+                <td style="vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
+                  <div style="margin-bottom: 0.75rem;">
+                    {% if item.org -%}
+                      <span>{{ item.org }}</span>
+                    {%- endif %}
+                    {% if item.location -%}
+                      <span style="margin: 0 0.5rem;">·</span>
+                      <span><i class="fa-solid fa-location-dot" style="margin-right: 0.3rem;"></i>{{ item.location }}</span>
+                    {%- endif %}
+                    {% if item.date -%}
+                      <span style="margin: 0 0.5rem;">·</span> <span>{{ item.date }}</span>
+                    {%- endif %}
+                  </div>
+                  {% if item.description %}
+                    <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                  {% endif %}
+                  {% if item.keywords and item.keywords.size > 0 %}
+                    <div style="margin-top: 0.25rem;">
+                      {% for keyword in item.keywords %}
+                        <span style="font-style: italic; margin-right: 0.75rem;">{{ keyword }}</span>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </table>
+        </div>
+      {%- endif -%}
+
     {% else %}
       {{ content }}
     {% endif %}
