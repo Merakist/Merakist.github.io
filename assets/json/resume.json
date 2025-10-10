@@ -1,26 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mingxuan Wang",
+    "label": "B.S. Computer Science and Engineering",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "mail@mingxuan.wang",
+    "url": "https://mingxuan.wang",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "Longxiang Ave. No. 2001, The Chinese University of Hong Kong Shenzhen",
+      "postalCode": "518172",
+      "city": "Shenzhen",
+      "countryCode": "CN",
+      "region": "Guangdong"
+    }
   },
   "work": [
     {

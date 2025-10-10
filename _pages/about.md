@@ -25,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm **Mingxuan Wang**, a Computer Science undergraduate student at [The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen), School of Data Science](https://sds.cuhk.edu.cn/en). I currently work as a `Research Assistant` in the Spoken Language Communications (SLC) Lab, supervised by [Professor Satoshi Nakamura](https://sai.cuhk.edu.cn/en/teacher/104) with a focus on [Machine Speech Chain](https://ieeexplore.ieee.org/document/9020132), `Speech Modeling` and `Speech Synthesis`, with a broader goal of building robust end-to-end systems for speech and audio generation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my exchange at the `Technical University of Munich`, I was supervised by [Professor Georg Groh](https://www.soc.cit.tum.de/persons/georg-groh/) to investigate `semantics–syntax separation` in `Mixture-of-Experts (MoE)` models. Previously, I was also supervised by [Professor Zhizheng Wu](https://drwuz.com), and contributed to [Amphion](https://github.com/open-mmlab/Amphion)[![GitHub stars](https://img.shields.io/github/stars/open-mmlab/Amphion)](https://github.com/open-mmlab/Amphion), an open-source platform for Audio, Music, and Speech Generation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include `Generative AI for Speech and Audio`, and `Audio, Speech and Language Processing`. Feel free to reach out if you’d like to chat or collaborate!

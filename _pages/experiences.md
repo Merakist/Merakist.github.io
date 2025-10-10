@@ -7,40 +7,48 @@ nav: true
 nav_order: 4
 
 experiences:
-  - date_range: 2023.09 - 2023.12
-    location: Beijing, China
+  - date_range: 2025.04 - 2025.09
+    location: Munich, Germany
+    position: Visiting Researcher (Exchange)
+    company: Technical University of Munich (TUM)
+    description: Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh; implemented and evaluated MoE routing and probing pipelines; conducted ablations and prepared a research report.
+    keywords: [MoE, Semantics/Syntax, Router Design, Explainability]
+  - date_range: 2024.10 - Present
+    location: Shenzhen, China
     position: Research Assistant
-    company: Tsinghua University, AIR
-    description: Prototyped fast conformer variants for low-latency ASR; reduced RTF by 35%.
-    keywords: [ASR, Conformer, Low Latency]
-  - date_range: 2023.05 - 2023.08
-    location: Remote
-    position: Machine Learning Intern
-    company: OpenAudio Labs
-    description: Fine-tuned speech-language models for instruction following; built evaluation harness.
-    keywords: [SLM Fine-tuning, Instruction Following, Evaluation]
-  - date_range: 2022.10 - 2023.04
-    location: Hong Kong
-    position: Research Intern
-    company: HKUST
-    description: Built multi-speaker TTS dataset and training pipeline; improved MOS by 0.3.
-    keywords: [TTS, Multi-speaker, Dataset Engineering]
+    company: CUHK-Shenzhen, Spoken Language Communications (SLC) Lab
+    description: Conducted independent research under Prof. Satoshi Nakamura on a fully discrete machine speech chain (“TokenChain”) coupling semantic-token ASR with a two-stage TTS (AR text-to-semantic co-trained with ASR; NAR semantic-to-acoustic for synthesis only); enabled end-to-end feedback via straight-through argmax/Gumbel-Softmax with dynamic weight averaging, yielding 2–6 epochs faster convergence and 5–13% lower equal-epoch error on LibriSpeech, and relative WER reductions of 56% (ASR) and 31% (T2S) on TED-LIUM; paper submitted to ICASSP 2026.
+    keywords: [Machine Speech Chain, Discrete Tokens, ASR, TTS, Straight-Through Estimator]
+  - date_range: 2023.10 - 2024.09
+    location: Shenzhen, China
+    position: Research Assistant
+    company: CUHK-Shenzhen, OpenMM Lab
+    description: Implemented features for Amphion and SingVisio; optimized and debugged code to accelerate critical milestones; created a celebrity-speech dataset enabling future speech-generation research.
+    keywords: [Speech Modeling, Speech Synthesis, Amphion, SingVisio, Dataset]
+  - date_range: 2023.08
+    location: Hong Kong SAR, China
+    position: Summer Intern
+    company: The Hong Kong Research Institute of Textiles and Apparel (HKRITA)
+    description: Managed the ERP system across 20+ projects; led a feasibility study for adopting a cloud-based service; collaborated with Microsoft and partners on a migration plan and cloud architecture/IT strategy.
+    keywords: [ERP, Cloud Architecture, SaaS, Systems Planning, Microsoft]
 
 honors:
-  - award: Best Paper Award
-    org: ICASSP
-    date: 2024.05
-    location: Seoul, South Korea
-    description: Recognized for contributions to low-latency ASR decoding.
-    keywords: [ASR, Real-time]
+  - award: Undergraduate Research Awards
+    org: The Chinese University of Hong Kong, Shenzhen
+    date: 2024, 2025
+    location: Shenzhen, China
+    description: University recognition for undergraduate research contributions in speech and audio.
+    keywords: [Research Award]
+  - award: Academic Performance Scholarship
+    org: The Chinese University of Hong Kong, Shenzhen
+    date: 2022-2023
+    location: Shenzhen, China
+    description: Merit-based scholarship awarded for outstanding academic performance.
+    keywords: [Scholarship]
   - award: Dean’s List
-    org: HKUST
-    date: 2023
-    description: Academic excellence, top 5% of cohort.
-  - award: Winner, Speech Hackathon
-    org: OpenAudio Labs
-    date: 2023.08
-    location: Remote
-    description: Built instruction-following TTS agent in 48 hours.
-    keywords: [TTS, Agents]
+    org: The Chinese University of Hong Kong, Shenzhen
+    date: 2022-2023, 2023-2024, 2024-2025
+    location: Shenzhen, China
+    description: Recognized for academic excellence.
+    keywords: [Academic Honors]
 ---
