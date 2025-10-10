@@ -149,11 +149,11 @@
     {
       "name": "Programming",
       "level": "Proficient",
-      "keywords": ["Python (4000+ LOC)", "Java", "C++", "Bash"]
+      "keywords": ["Python", "Java", "C++", "Bash"]
     },
     {
       "name": "Machine Learning for Speech",
-      "keywords": ["ASR", "TTS", "Machine Speech Chain", "Diffusion Models", "Mixture-of-Experts (MoE)"]
+      "keywords": ["ASR", "TTS", "Diffusion Models", "Machine Speech Chain", "Mixture-of-Experts (MoE)"]
     },
     {
       "name": "DevOps & Tools",
