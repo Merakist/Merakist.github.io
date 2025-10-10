@@ -5,7 +5,7 @@ layout: page
   <article>
     {% if page.experiences or page.honors %}
       {%- if page.experiences -%}
-        <h2 style="color: var(--global-theme-color); margin: 0 0 1rem 0;">Internships &amp; Employment</h2>
+        <h2 style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 0 0 1rem 0;"> internships &amp; employment </h2>
         <div class="table-responsive" style="margin-bottom: 2rem;">
           <table class="table table-sm table-borderless m-0">
             {% assign items = page.experiences | reverse %}
@@ -43,7 +43,7 @@ layout: page
       {%- endif -%}
 
       {%- if page.honors -%}
-        <h2 id="honors" style="color: var(--global-theme-color); margin: 2rem 0 1rem 0;">Honors</h2>
+        <h2 id="honors" style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 2rem 0 1rem 0;">honors</h2>
         <div class="table-responsive">
           <table class="table table-sm table-borderless m-0">
             {% assign hitems = page.honors | reverse %}

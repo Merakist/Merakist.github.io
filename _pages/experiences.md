@@ -2,7 +2,7 @@
 layout: experiences
 permalink: /experiences/
 title: experiences
-description: internships and employment
+description:
 nav: true
 nav_order: 4
 
