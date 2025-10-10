@@ -8,7 +8,7 @@ layout: page
         <h2 style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 0 0 1rem 0;">internships &amp; employment</h2>
         <div class="table-responsive" style="margin-bottom: 2rem;">
           <table class="table table-sm table-borderless m-0">
-            {% assign items = page.experiences | reverse %}
+            {% assign items = page.experiences %}
             {% for item in items %}
               <tr class="experience-row" style="border-bottom: 1px solid var(--global-divider-color);">
                 <th scope="row" style="width: 22%; color: var(--global-theme-color); vertical-align: top; padding: 1rem 0.75rem 1.5rem 0;">
@@ -46,7 +46,7 @@ layout: page
         <h2 id="honors" style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 2rem 0 1rem 0;">honors</h2>
         <div class="table-responsive">
           <table class="table table-sm table-borderless m-0">
-            {% assign hitems = page.honors | reverse %}
+            {% assign hitems = page.honors %}
             {% for item in hitems %}
               <tr class="experience-row" style="border-bottom: 1px solid var(--global-divider-color);">
                 <!-- Left column shows the award/title -->

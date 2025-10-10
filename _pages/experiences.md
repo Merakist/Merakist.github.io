@@ -11,7 +11,7 @@ experiences:
     location: Munich, Germany
     position: Visiting Researcher (Exchange)
     company: Technical University of Munich (TUM)
-    description: Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh; implemented and evaluated MoE routing and probing pipelines; conducted ablations and prepared a research report.
+    description: Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh; designed, implemented and evaluated MoE routing and probing pipelines; trained novel MoE models, compared with baselines, and conducted ablations.
     keywords: [MoE, Semantics/Syntax, Router Design, Explainability]
   - date_range: 2024.10 - Present
     location: Shenzhen, China
@@ -29,7 +29,7 @@ experiences:
     location: Hong Kong SAR, China
     position: Summer Intern
     company: The Hong Kong Research Institute of Textiles and Apparel (HKRITA)
-    description: Managed the ERP system across 20+ projects; led a feasibility study for adopting a cloud-based service; collaborated with Microsoft and partners on a migration plan and cloud architecture/IT strategy.
+    description: Managed the ERP system across 20+ projects; led a feasibility study for adopting a cloud-based service; collaborated with Microsoft and partners on cloud architecture/IT strategy.
     keywords: [ERP, Cloud Architecture, SaaS, Systems Planning, Microsoft]
 
 honors:
@@ -47,7 +47,7 @@ honors:
     keywords: [Scholarship]
   - award: Dean’s List
     org: The Chinese University of Hong Kong, Shenzhen
-    date: 2022-2023, 2023-2024, 2024-2025
+    date: 2022, 2023, 2024, 2025
     location: Shenzhen, China
     description: Recognized for academic excellence.
     keywords: [Academic Honors]
