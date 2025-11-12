@@ -64,7 +64,7 @@
       "summary": "Contributed to evaluation pipeline for text-to-speech; improved benchmarking efficiency; enhanced large-dataset TTS with multi-speaker functionality."
     }
   ],
-  "research": [
+  "work": [
     {
       "name": "CUHK-Shenzhen, Spoken Language Communications (SLC) Lab",
       "position": "Lead Researcher",
@@ -120,9 +120,7 @@
         "Implemented Mamba SSM text-to-semantic models attaining higher speaker similarity than Llama baseline.",
         "Developed expertise in two-stage discrete tokenized TTS paradigm, gaining insights into masked-generative text-to-semantic modeling, RVQ-based speech tokenisation, and semantic-to-acoustic synthesis workflows."
       ]
-    }
-  ],
-  "internships": [
+    },
     {
       "name": "The Hong Kong Research Institute of Textiles and Apparel (HKRITA)",
       "position": "Summer Intern",

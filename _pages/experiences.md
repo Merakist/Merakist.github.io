@@ -21,9 +21,9 @@ experiences:
     position: Lead Researcher
     company: CUHK-Shenzhen, Spoken Language Communications (SLC) Lab
     bullets:
-      - Pioneered the research question and led the end-to-end project: a fully discretized semantic token ASR-TTS machine speech chain with straight-through (STE) / Soft-Gumbel feedback and dynamic loss scheduling.
-      - Demonstrated effectiveness with discrete-token chaining: in-domain beat baseline by 2–6 epochs with 5-13% lower equal-epoch error; out-of-domain cut ASR WER 56% and T2S WER 31% with minimal forgetting.
-      - Drove an independent, first-author effort: engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and submitted the manuscript to IEEE ICASSP 2026.
+      - Pioneered the research question and led the end-to-end project - a fully discretized semantic token ASR-TTS machine speech chain with straight-through (STE) / Soft-Gumbel feedback and dynamic loss scheduling.
+      - Demonstrated effectiveness with discrete-token chaining - in-domain beat baseline by 2–6 epochs with 5-13% lower equal-epoch error; out-of-domain cut ASR WER 56% and T2S WER 31% with minimal forgetting.
+      - Drove an independent, first-author effort - engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and submitted the manuscript to IEEE ICASSP 2026.
     keywords: [Machine Speech Chain, Discrete Tokens, ASR, TTS, Straight-Through Estimator]
   - date_range: 2024.10 - 2024.11
     location: Shenzhen, China
