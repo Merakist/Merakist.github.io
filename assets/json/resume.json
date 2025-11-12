@@ -14,49 +14,115 @@
       "region": "Guangdong"
     }
   },
-  "work": [
+  "languages": [
+    { "language": "Chinese", "fluency": "Native" },
+    { "language": "English", "fluency": "Fluent (IELTS 8.5/9.0)" },
+    { "language": "Japanese", "fluency": "Fluent (JLPT N1)" },
+    { "language": "German", "fluency": "Basic" }
+  ],
+  "education": [
+    {
+      "institution": "The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)",
+      "location": "Shenzhen, China",
+      "url": "https://www.cuhk.edu.cn",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2022-09",
+      "endDate": "Present",
+      "score": "GPA: 3.77/4.00"
+    },
+    {
+      "institution": "Technical University of Munich (TUM)",
+      "location": "Munich, Germany",
+      "url": "https://www.tum.de",
+      "area": "Informatics",
+      "studyType": "Exchange Student",
+      "startDate": "2025-04",
+      "endDate": "2025-09",
+      "score": "N/A"
+    }
+  ],
+  "publications": [
+    {
+      "name": "TokenChain: Fully Discrete Machine Speech Chain",
+      "publisher": "ICASSP 2026 (under review)",
+      "releaseDate": "2025",
+      "summary": "Couples semantic-token ASR with a two-stage TTS and uses straight-through estimators for end-to-end feedback; submitted to ICASSP 2026."
+    },
+    {
+      "name": "SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion",
+      "publisher": "Computers & Graphics",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2402.12660.pdf",
+      "summary": "Defined objective criteria of audio data to visualize diffusion training dynamics; designed and analyzed 20+ expert surveys; co-authored paper and produced a demo video."
+    },
+    {
+      "name": "Amphion: An Open-Source Audio, Music and Speech Generation Toolkit",
+      "publisher": "IEEE SLT 2024",
+      "releaseDate": "2024",
+      "url": "https://arxiv.org/pdf/2312.09911.pdf",
+      "summary": "Contributed to evaluation pipeline for text-to-speech; improved benchmarking efficiency; enhanced large-dataset TTS with multi-speaker functionality."
+    }
+  ],
+  "research": [
     {
       "name": "CUHK-Shenzhen, Spoken Language Communications (SLC) Lab",
-      "position": "Research Assistant",
+      "position": "Lead Researcher",
       "location": "Shenzhen, China",
       "url": "https://sai.cuhk.edu.cn",
       "startDate": "2024-10",
       "endDate": "Present",
       "summary": "Independent research under Prof. Satoshi Nakamura on a fully discrete machine speech chain (TokenChain).",
       "highlights": [
-        "Coupled semantic-token ASR with a two-stage TTS (AR text-to-semantic; NAR semantic-to-acoustic)",
-        "Enabled end-to-end feedback via straight-through argmax/Gumbel-Softmax with dynamic weight averaging",
-        "Achieved faster convergence and lower equal-epoch error in experiments; manuscript submitted to ICASSP 2026"
+        "Pioneered the research question and led the end-to-end project: a fully discretized semantic token ASR--TTS machine speech chain with straight-through (STE) / Soft-Gumbel feedback and dynamic loss scheduling.",
+        "Demonstrated effectiveness with discrete-token chaining: in-domain beat baseline by 2–6 epochs with 5-13% lower equal-epoch error; out-of-domain cut ASR WER 56% and T2S WER 31% with minimal forgetting.",
+        "Drove an independent, first-author effort: engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and submitted the manuscript to IEEE ICASSP 2026."
       ]
     },
     {
       "name": "Technical University of Munich (TUM)",
-      "position": "Exchange Student (Research)",
+      "position": "Visiting Undergraduate Researcher",
       "location": "Munich, Germany",
       "url": "https://www.tum.de",
       "startDate": "2025-04",
       "endDate": "2025-09",
-      "summary": "Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh.",
+      "summary": "Investigated semantics–syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh.",
       "highlights": [
-        "Designed, implemented and evaluated MoE routing pipelines",
-        "Trained novel MoE models and compared with baselines",
-        "Conducted ablations for router design and model explainability"
+        "Architected innovative MoE LLM with semantic-syntactic separation mechanism, designed label-aware and adaptive routers with load-balancing and mask, achieving expert-set specialisation with strong results.",
+        "Conceived knowledge distillation and compression methods (router-side SLAR; expert-side MoKE) for the new model, delivering 1.2x faster inference and 35% lower memory with only 0.41% performance loss.",
+        "Built the full training and evaluation stack with metrics and interpretability tools (routing heatmaps and word banks), ran ablations and authored the poster and research report documenting findings."
       ]
     },
     {
-      "name": "CUHK-Shenzhen, OpenMMLab",
-      "position": "Research Assistant",
+      "name": "CUHK-Shenzhen, School of Data Science (SDS)",
+      "position": "Independent Researcher",
       "location": "Shenzhen, China",
-      "url": "https://github.com/open-mmlab/Amphion",
-      "startDate": "2023-10",
-      "endDate": "2024-09",
-      "summary": "Contributed to Amphion and SingVisio projects.",
+      "url": "https://sds.cuhk.edu.cn",
+      "startDate": "2024-10",
+      "endDate": "Present",
+      "summary": "Investigated contamination-transfer ablations for multimodal LLMs under Prof. Benyou Wang.",
       "highlights": [
-        "Implemented features for Amphion and SingVisio",
-        "Optimized and debugged code to accelerate critical milestones",
-        "Created a celebrity-speech dataset enabling future speech-generation research"
+        "Proposed novel contamination-transfer ablations investigating unimodal and its derived multimodal models.",
+        "Improved key correct-answer matching algorithm for leakage detection, boosting selection accuracy by 20%.",
+        "Optimized contamination detection by inhibiting random guessing via uncertainty clause, analyzed back-translation quality through semantic retention and lexical overlap with SBERT, BLEU and their correlation."
       ]
     },
+    {
+      "name": "CUHK-Shenzhen, Human Language Technology Lab",
+      "position": "Research Assistant",
+      "location": "Shenzhen, China",
+      "url": "https://sai.cuhk.edu.cn",
+      "startDate": "2023-10",
+      "endDate": "2024-10",
+      "summary": "Conducted research on text-to-speech (TTS) under Prof. Zhizheng Wu.",
+      "highlights": [
+        "Accelerated Amphion & SingVisio's TTS development by optimizing code for critical evaluation milestones.",
+        "Implemented Mamba SSM text-to-semantic models attaining higher speaker similarity than Llama baseline.",
+        "Developed expertise in two-stage discrete tokenized TTS paradigm, gaining insights into masked-generative text-to-semantic modeling, RVQ-based speech tokenisation, and semantic-to-acoustic synthesis workflows."
+      ]
+    }
+  ],
+  "internships": [
     {
       "name": "The Hong Kong Research Institute of Textiles and Apparel (HKRITA)",
       "position": "Summer Intern",
@@ -84,18 +150,6 @@
   //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
   //   }
   // ],
-  "education": [
-    {
-      "institution": "The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)",
-      "location": "Shenzhen, China",
-      "url": "https://www.cuhk.edu.cn",
-      "area": "Computer Science and Engineering",
-      "studyType": "Bachelor of Science",
-      "startDate": "2022-09",
-      "endDate": "Present",
-      "score": "CGPA: 3.79/4.00"
-    }
-  ],
   "awards": [
     {
       "title": "Undergraduate Research Awards",
@@ -118,31 +172,14 @@
   ],
   "certificates": [
     {
+      "name": "IELTS 8.5/9.0",
+      "date": "2025",
+      "issuer": "International English Language Testing System"
+    },
+    {
       "name": "Japanese Language Proficiency Test (JLPT) — N1",
       "date": "2023",
       "issuer": "Japan Foundation"
-    }
-  ],
-  "publications": [
-    {
-      "name": "TokenChain: Fully Discrete Machine Speech Chain",
-      "publisher": "ICASSP 2026 (under review)",
-      "releaseDate": "2025",
-      "summary": "Couples semantic-token ASR with a two-stage TTS and uses straight-through estimators for end-to-end feedback; submitted to ICASSP 2026."
-    },
-    {
-      "name": "SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion",
-      "publisher": "Computers & Graphics",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2402.12660.pdf",
-      "summary": "Defined objective criteria of audio data to visualize diffusion training dynamics; designed and analyzed 20+ expert surveys; co-authored paper and produced a demo video."
-    },
-    {
-      "name": "Amphion: An Open-Source Audio, Music and Speech Generation Toolkit",
-      "publisher": "IEEE SLT 2024",
-      "releaseDate": "2024",
-      "url": "https://arxiv.org/pdf/2312.09911.pdf",
-      "summary": "Contributed to evaluation pipeline for text-to-speech; improved benchmarking efficiency; enhanced large-dataset TTS with multi-speaker functionality."
     }
   ],
   "skills": [
@@ -167,12 +204,6 @@
       "name": "Collaboration",
       "keywords": ["Cross-functional teamwork", "Technical writing", "Industry surveys"]
     }
-  ],
-  "languages": [
-    { "language": "Chinese", "fluency": "Native" },
-    { "language": "English", "fluency": "Fluent (IELTS 8.5/9.0)" },
-    { "language": "Japanese", "fluency": "Fluent (JLPT N1)" },
-    { "language": "German", "fluency": "Basic" }
   ],
   "interests": [
     {

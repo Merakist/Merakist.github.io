@@ -5,7 +5,7 @@ layout: page
   <article>
     {% if page.experiences or page.honors %}
       {%- if page.experiences -%}
-        <h2 style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 0 0 1rem 0;">internships &amp; employment</h2>
+        <h2 style="color: var(--global-text-color, #000); font-size: 1.25rem; margin: 0 0 1rem 0;">research &amp; internships</h2>
         <div class="table-responsive" style="margin-bottom: 2rem;">
           <table class="table table-sm table-borderless m-0">
             {% assign items = page.experiences %}
@@ -26,7 +26,34 @@ layout: page
                     {%- endif %}
                   </div>
                   {% if item.description %}
-                    <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                    {% assign lines = item.description | split: '\n' %}
+                    {% if lines.size > 1 and item.bullets == null and item.description_list == null %}
+                      <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                        {% for line in lines %}
+                          {% assign txt = line | strip %}
+                          {% if txt != '' %}
+                            <li style="margin-bottom: 0.35rem;">{{ txt }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    {% else %}
+                      <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                    {% endif %}
+                  {% endif %}
+                  {% if item.description_list %}
+                    <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                      {% for bullet in item.description_list %}
+                        <li style="margin-bottom: 0.35rem;">{{ bullet }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if item.bullets %}
+                    <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                      {% for bullet in item.bullets %}
+                        {%- capture b -%}{{ bullet | markdownify }}{%- endcapture -%}
+                        <li style="margin-bottom: 0.35rem;">{{ b | replace: '<p>', '' | replace: '</p>', '' }}</li>
+                      {% endfor %}
+                    </ul>
                   {% endif %}
                   {% if item.keywords and item.keywords.size > 0 %}
                     <div style="margin-top: 0.25rem;">
@@ -67,7 +94,34 @@ layout: page
                     {%- endif %}
                   </div>
                   {% if item.description %}
-                    <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                    {% assign lines = item.description | split: '\n' %}
+                    {% if lines.size > 1 and item.bullets == null and item.description_list == null %}
+                      <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                        {% for line in lines %}
+                          {% assign txt = line | strip %}
+                          {% if txt != '' %}
+                            <li style="margin-bottom: 0.35rem;">{{ txt }}</li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+                    {% else %}
+                      <div style="margin: 0 0 0.75rem 0;">{{ item.description }}</div>
+                    {% endif %}
+                  {% endif %}
+                  {% if item.description_list %}
+                    <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                      {% for bullet in item.description_list %}
+                        <li style="margin-bottom: 0.35rem;">{{ bullet }}</li>
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
+                  {% if item.bullets %}
+                    <ul class="desc-list" style="margin: 0 0 0.75rem 1.25rem; padding: 0;">
+                      {% for bullet in item.bullets %}
+                        {%- capture b -%}{{ bullet | markdownify }}{%- endcapture -%}
+                        <li style="margin-bottom: 0.35rem;">{{ b | replace: '<p>', '' | replace: '</p>', '' }}</li>
+                      {% endfor %}
+                    </ul>
                   {% endif %}
                   {% if item.keywords and item.keywords.size > 0 %}
                     <div style="margin-top: 0.25rem;">

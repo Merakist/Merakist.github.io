@@ -7,29 +7,50 @@ nav: true
 nav_order: 4
 
 experiences:
-  - date_range: 2025.04 - 2025.09
+  - date_range: 2025.03 - 2025.08
     location: Munich, Germany
-    position: Exchange Student (Research)
-    company: Technical University of Munich (TUM)
-    description: Investigated semantics/syntax separation in Mixture-of-Experts (MoE) models under Prof. Georg Groh; designed, implemented and evaluated MoE routing and probing pipelines; trained novel MoE models, compared with baselines, and conducted ablations.
+    position: Visiting Undergraduate Researcher
+    company: Technical University of Munich (TUM), Research Group Social Computing
+    bullets:
+      - Architected innovative MoE LLM with semantic-syntactic separation mechanism, designed label-aware and adaptive routers with load-balancing and mask, achieving expert-set specialisation with strong results.
+      - Conceived knowledge distillation and compression methods (router-side SLAR; expert-side MoKE) for the new model, delivering 1.2x faster inference and 35% lower memory with only 0.41% performance loss.
+      - Built the full training and evaluation stack with metrics and interpretability tools (routing heatmaps and word banks), ran ablations and authored the poster and research report documenting findings.
     keywords: [MoE, Semantics/Syntax, Router Design, Explainability]
-  - date_range: 2024.10 - Present
+  - date_range: 2024.11 - Present
     location: Shenzhen, China
-    position: Research Assistant
+    position: Lead Researcher
     company: CUHK-Shenzhen, Spoken Language Communications (SLC) Lab
-    description: Conducted independent research under Prof. Satoshi Nakamura on a fully discrete machine speech chain (“TokenChain”) coupling semantic-token ASR with a two-stage TTS (AR text-to-semantic co-trained with ASR; NAR semantic-to-acoustic for synthesis only); enabled end-to-end feedback via straight-through argmax/Gumbel-Softmax with dynamic weight averaging, yielding 2–6 epochs faster convergence and 5–13% lower equal-epoch error on LibriSpeech, and relative WER reductions of 56% (ASR) and 31% (T2S) on TED-LIUM; paper submitted to ICASSP 2026.
+    bullets:
+      - Pioneered the research question and led the end-to-end project: a fully discretized semantic token ASR-TTS machine speech chain with straight-through (STE) / Soft-Gumbel feedback and dynamic loss scheduling.
+      - Demonstrated effectiveness with discrete-token chaining: in-domain beat baseline by 2–6 epochs with 5-13% lower equal-epoch error; out-of-domain cut ASR WER 56% and T2S WER 31% with minimal forgetting.
+      - Drove an independent, first-author effort: engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and submitted the manuscript to IEEE ICASSP 2026.
     keywords: [Machine Speech Chain, Discrete Tokens, ASR, TTS, Straight-Through Estimator]
-  - date_range: 2023.10 - 2024.09
+  - date_range: 2024.10 - 2024.11
+    location: Shenzhen, China
+    position: Independent Researcher
+    company: School of Data Science (SDS)
+    bullets:
+      - Proposed novel contamination-transfer ablations investigating unimodal and its derived multimodal models.
+      - Improved key correct-answer matching algorithm for leakage detection, boosting selection accuracy by 20%.
+      - Optimized contamination detection by inhibiting random guessing via uncertainty clause, analyzed back-translation quality through semantic retention and lexical overlap with SBERT, BLEU and their correlation.
+    keywords: [Multimodal LLM, Contamination Detection, Benchmark, Semantic Retention]
+  - date_range: 2023.10 - 2024.10
     location: Shenzhen, China
     position: Research Assistant
-    company: CUHK-Shenzhen, OpenMM Lab
-    description: Implemented features for Amphion and SingVisio; optimized and debugged code to accelerate critical milestones; created a celebrity-speech dataset enabling future speech-generation research.
-    keywords: [Speech Modeling, Speech Synthesis, Amphion, SingVisio, Dataset]
+    company: CUHK-Shenzhen Human Language Technology Lab
+    bullets:
+      - Accelerated Amphion & SingVisio's TTS development by optimizing code for critical evaluation milestones.
+      - Implemented Mamba SSM text-to-semantic models attaining higher speaker similarity than Llama baseline.
+      - Developed expertise in two-stage discrete tokenized TTS paradigm, gaining insights into masked-generative text-to-semantic modeling, RVQ-based speech tokenisation, and semantic-to-acoustic synthesis workflows.
+    keywords: [Multimodal LLM, Contamination Detection, Benchmark, Semantic Retention]
   - date_range: 2023.08
     location: Hong Kong SAR, China
-    position: Summer Intern
+    position: Data Analytics & Cloud Intern
     company: The Hong Kong Research Institute of Textiles and Apparel (HKRITA)
-    description: Managed the ERP system across 20+ projects; led a feasibility study for adopting a cloud-based service; collaborated with Microsoft and partners on cloud architecture/IT strategy.
+    bullets:
+      - Managed the Enterprise Resource Planning (ERP) system, ensuring operational workflows of 20+ projects.
+      - Led and successfully completed a feasibility study for the company's adoption of a cloud-based service.
+      - Collaborated with Microsoft and key partners to formulate a plan for seamless migration of service, gaining insights into cloud-based system platforms and strategic data analytics architecture planning.
     keywords: [ERP, Cloud Architecture, SaaS, Systems Planning, Microsoft]
 
 honors:
@@ -37,17 +58,17 @@ honors:
     org: The Chinese University of Hong Kong, Shenzhen
     date: 2024, 2025
     location: Shenzhen, China
-    description: University recognition for undergraduate research contributions in speech and audio.
+    description: University recognition for undergraduate research contributions in speech and audio GenAI.
     keywords: [Research Award]
   - award: Academic Performance Scholarship
     org: The Chinese University of Hong Kong, Shenzhen
-    date: 2022-2023
+    date: 2023
     location: Shenzhen, China
     description: Merit-based scholarship awarded for outstanding academic performance.
     keywords: [Scholarship]
   - award: Dean’s List
     org: The Chinese University of Hong Kong, Shenzhen
-    date: 2022, 2023, 2024, 2025
+    date: 2023, 2024, 2025
     location: Shenzhen, China
     description: Recognized for academic excellence.
     keywords: [Academic Honors]
