@@ -70,7 +70,7 @@
       "position": "Lead Researcher",
       "location": "Shenzhen, China",
       "url": "https://sai.cuhk.edu.cn",
-      "startDate": "2024-10",
+      "startDate": "2024-11",
       "endDate": "Present",
       "summary": "Independent research under Prof. Satoshi Nakamura on a fully discrete machine speech chain (TokenChain).",
       "highlights": [
@@ -99,7 +99,7 @@
       "location": "Shenzhen, China",
       "url": "https://sds.cuhk.edu.cn",
       "startDate": "2024-10",
-      "endDate": "Present",
+      "endDate": "2024-11",
       "summary": "Investigated contamination-transfer ablations for multimodal LLMs under Prof. Benyou Wang.",
       "highlights": [
         "Proposed novel contamination-transfer ablations investigating unimodal and its derived multimodal models.",
@@ -163,7 +163,7 @@
     },
     {
       "title": "Dean’s List",
-      "date": "2022–2025",
+      "date": "2023–2025",
       "awarder": "The Chinese University of Hong Kong, Shenzhen",
       "summary": "Recognized for academic excellence."
     }
