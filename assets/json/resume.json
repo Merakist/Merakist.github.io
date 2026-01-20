@@ -45,9 +45,9 @@
   "publications": [
     {
       "name": "TokenChain: Fully Discrete Machine Speech Chain",
-      "publisher": "ICASSP 2026 (under review)",
+      "publisher": "ICASSP 2026",
       "releaseDate": "2025",
-      "summary": "Couples semantic-token ASR with a two-stage TTS and uses straight-through estimators for end-to-end feedback; submitted to ICASSP 2026."
+      "summary": "Sole first-author endeavour coupling semantic-token ASR with a two-stage TTS and uses straight-through estimators for end-to-end feedback; accepted to ICASSP 2026."
     },
     {
       "name": "SingVisio: Visual Analytics of Diffusion Model for Singing Voice Conversion",
@@ -76,7 +76,7 @@
       "highlights": [
         "Pioneered the research question and led the end-to-end project: a fully discretized semantic token ASR--TTS machine speech chain with straight-through (STE) / Soft-Gumbel feedback and dynamic loss scheduling.",
         "Demonstrated effectiveness with discrete-token chaining: in-domain beat baseline by 2–6 epochs with 5-13% lower equal-epoch error; out-of-domain cut ASR WER 56% and T2S WER 31% with minimal forgetting.",
-        "Drove an independent, first-author effort: engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and submitted the manuscript to IEEE ICASSP 2026."
+        "Drove an independent, first-author effort: engineered a unified preprocess-training-evaluation framework, ablated hyperparameters and produced figures, and led the work to acceptance at IEEE ICASSP 2026"
       ]
     },
     {
@@ -151,7 +151,7 @@
   "awards": [
     {
       "title": "Undergraduate Research Awards",
-      "date": "2024, 2025",
+      "date": "2024–2026",
       "awarder": "The Chinese University of Hong Kong, Shenzhen",
       "summary": "University recognition for undergraduate research in speech and audio."
     },
