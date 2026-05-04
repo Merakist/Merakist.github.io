@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Mingxuan Wang",
-    "label": "B.S. Computer Science and Engineering",
+    "label": "CS Undergraduate | Incoming MPhil MLMI (SLP) Student at Cambridge",
     "image": "",
     "email": "mail@mingxuan.wang",
     "url": "https://mingxuan.wang",
-    "summary": "A CS undergraduate at CUHK-Shenzhen (SDS), researching spoken language processing and generative AI for (multilingual) speech & audio.",
+    "summary": "CS undergraduate at CUHK-Shenzhen (SDS) and incoming Cambridge MPhil student in MLMI (SLP track), researching spoken language processing and generative AI for multilingual speech and audio.",
     "location": {
       "address": "Longxiang Ave. No. 2001, The Chinese University of Hong Kong Shenzhen",
       "postalCode": "518172",
@@ -39,6 +39,16 @@
       "studyType": "Exchange Student",
       "startDate": "2025-04",
       "endDate": "2025-09",
+      "score": "N/A"
+    },
+    {
+      "institution": "University of Cambridge",
+      "location": "Cambridge, United Kingdom",
+      "url": "https://www.cam.ac.uk",
+      "area": "Machine Learning and Machine Intelligence, Speech and Language Processing Track",
+      "studyType": "Incoming MPhil student, Offer Accepted",
+      "startDate": "2026-10",
+      "endDate": "2027-08",
       "score": "N/A"
     }
   ],
